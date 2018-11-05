@@ -1,0 +1,12 @@
+#btnlgout{
+	float: right;
+	margin-top: 20px;
+}
+
+.client_area{
+	width: 500px;
+	height: 480px;
+}
+#txt{
+	float:left;
+}

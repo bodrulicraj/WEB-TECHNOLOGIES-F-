@@ -1,0 +1,178 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-image: url("image/bg.jpg");
+	background-size: cover;
+	color: #fff;
+}
+
+.registration_form{
+	width: 520px;
+	margin: 50px auto;
+	background-color: #cccccc;
+	border-radius: 10px;
+}
+
+.form_title{
+	width: 520px;
+	height: 65px;
+	margin-bottom: 20px;
+	background-color: #2d8659;
+	color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+
+.form_title h3{
+	font-size: 22px;
+	
+	/* Tag <h3> default css change */
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	padding-block-start: 15px;	
+}
+
+.form_content{
+	
+}
+
+.content1{
+	
+}
+
+.content_area{
+	width: 350px;
+	margin: 0px auto;
+	background-color: #fff;
+}
+.content_area input{
+	width: 285px;
+	border: 0px;
+}
+.content_area input[placeholder]{
+	font-size: 16px;
+	padding: 6px 5px 7px 10px;
+}
+
+.content5{
+	width: 350px;
+	margin: 0px auto;
+	background-color: ##cccccc;
+}
+
+.content5 input{
+	width: 150px;
+	border: 0px;
+	margin-right: 15px;
+}
+.content5 input:last-child{
+	margin-right: 0px;
+}
+.content5 input[placeholder]{
+	font-size: 16px;
+	padding: 6px 5px 7px 10px;
+}
+.content6{
+	width: 350px;
+	margin: 0px auto;
+	background-color: #cccccc;
+	color: #333333;
+}
+
+.content6 label{
+	color: #333333;
+}
+.content6 h3{
+	display: inline-block;
+	font-weight: normal;
+}
+.content6 input{
+	width: 15px;
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+.content7{
+	width: 350px;
+	margin: 0px auto;
+}
+
+.content7 input{
+	
+}
+
+#ck1{
+	color: #333333;
+	font-size: 17px;
+    margin-left: 2px;
+	position: relative;
+	top: -2px;
+}
+
+.content8{
+	width: 350px;
+	margin: 0px auto;
+}
+
+.content8 input{
+	width: 95px;
+	padding: 8px 0px;
+	background-color: #2d8659;
+	border: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	color: #d9d9d9;
+	margin-right: 115px;
+	margin-bottom: 25px;
+}
+
+.content8 input:last-child{
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.content8 input:hover{
+	background-color: #339966;
+	color: #ffffff;
+}
+
+#error_msg{
+	margin-left: 85px;
+	color: #e60000;
+	font-size: 16px;
+}
+
+.glyphicon{
+	color: #b2b2b2;
+	font-size: 18px;
+	padding: 0px 0px 0px 15px;
+}
+
+.glyphicon img{
+	width: 20px;
+	top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
