@@ -1,0 +1,79 @@
+1. Declare
+  	count number(5);
+  	deptno emp.deptno%type;
+  	vacancie number(5);
+  	i number(5);
+  	cursor c1 is
+  	select deptno,cast(count(empno) as number(5))as count from emp group by deptno;
+   Begin  
+  	for i in c1 loop
+ 	if i.count<10 then
+      		dbms_output.put_line('Department '||i.deptno||' has vacancies.');
+      		vacancie :=10-i.count;
+       		dbms_output.put_line('Number of vacancies: '||vacancie);   
+        	dbms_output.new_line;
+ 	else
+   		dbms_output.put_line('Department '||i.deptno||' has no vacancies.');
+    		dbms_output.new_line;
+ 	end if;
+ 	end loop;
+   end;
+
+2. 
+
+3. Declare
+    	counter number(5);
+    	k number(5);
+   Begin 
+	dbms_output.Put_line('The prime number between 1-50 : ');
+  	for n in 1..50 loop   
+   	counter := 0;
+   	k := floor(n/2);
+    	for i IN 2..k loop
+           if (mod(n, i) = 0 ) then
+            	counter := 1;
+        	end if;
+    	end loop;
+       if (counter = 0) THEN
+       		dbms_output.put_line(n);
+    	end if;
+  end loop;
+end;
+
+4. Declare
+  n number(5):=:Enter_Number;
+  i number(5);
+  result number(5):=0;
+Begin
+  for i in 1..n-1 loop
+     if(MOD(n,i)=0) then
+       result :=result+i;
+     end if;
+  end loop;
+
+  if(result=n) then
+     dbms_output.put_line(n||' is perfect number');
+  else
+    dbms_output.put_line(n||' is not perfect number');
+  end if;
+End;
+
+5. Declare
+    	num1 number:=:Enter_1st_Number;
+    	num2 number:=:Enter_2nd_Number;
+   	 num3  number:=:Enter_3rd_Number;
+   Begin
+    	dbms_output.put_line('Number_1 = '||num1 ||' Number_2 = '||num2 ||' Number_3 = '||num3);
+   	dbms_output.new_line;
+    	if num1>num2 AND num1>num3
+    	then
+            dbms_output.put_line('Number_1 is greatest : ' || num1 );
+    	else
+        if num2>num1 AND num2>num3
+        then
+            dbms_output.put_line('Number_2 is greatest : ' || num2);    
+        else
+            dbms_output.put_line('Number_3 is greatest: ' || num3);
+        end if;
+    End if;
+End;

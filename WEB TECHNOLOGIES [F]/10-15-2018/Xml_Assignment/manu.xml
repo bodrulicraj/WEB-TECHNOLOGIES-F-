@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+ <userdata>
+  <menu>xs</menu>
+  <item>x</item>
+  <price>9</price>
+ </userdata>
+</information>
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+ <userdata>
+  <menu>rty</menu>
+  <item>ff</item>
+  <price>44</price>
+ </userdata>
+</information>
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+ <userdata>
+  <menu>xs</menu>
+  <item>444</item>
+  <price>44444</price>
+ </userdata>
+</information>
